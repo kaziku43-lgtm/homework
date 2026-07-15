@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Character Genshin Impact</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fff4f4, #ffe0e0);
+            padding: 24px;
+        }
+
+        .row {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #ffffff;
+            border: 1px solid #f2b3b3;
+            border-radius: 18px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            padding: 24px;
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            color: #8b2d2d;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .image-card {
+            background: linear-gradient(145deg, #fff8f8, #ffe0e0);
+            border: 0.5px solid #f2b3b3;
+            border-radius: 16px;
+            padding: 10px;
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .image-card:hover {
+            transform: translateY(-6px) scale(1.02);
+            border-color: #ff6b6b;
+            background: linear-gradient(145deg, #fff4f4, #ffd1d1);
+            box-shadow: 0 12px 24px rgba(255, 107, 107, 0.25);
+        }
+
+        .image-card img {
+            width: 100%; ;
+            object-fit: cover;
+            border-radius: 12px;
+            display: block;
+        }
+
+        .image-name {
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            color: #8b2d2d;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <h1>Character Gallery</h1>
+        <div class="gallery">
+            
+            <div class="image-card"><img src="GZ (2).jpg" alt="Character 2"></div>
+            <div class="image-card"><img src="GZ (3).jpg" alt="Character 3"></div>
+            <div class="image-card"><img src="GZ (4).jpg" alt="Character 4"></div>
+            <div class="image-card"><img src="GZ (5).jpg" alt="Character 5"></div>
+            <div class="image-card"><img src="GZ (6).jpg" alt="Character 6"></div>
+            <div class="image-card"><img src="GZ (7).jpg" alt="Character 7"></div>
+            <div class="image-card"><img src="GZ (8).jpg" alt="Character 8"></div>
+            <div class="image-card"><img src="GZ (9).jpg" alt="Character 9"></div>
+            <div class="image-card"><img src="GZ (10).jpg" alt="Character 10"></div>
+            <div class="image-card"><img src="GZ (11).jpg" alt="Character 11"></div>
+            <div class="image-card"><img src="GZ (12).jpg" alt="Character 12"></div>
+            <div class="image-card"><img src="GZ (13).jpg" alt="Character 13"></div>
+            <div class="image-card"><img src="GZ (14).jpg" alt="Character 14"></div>
+            <div class="image-card"><img src="GZ (15).jpg" alt="Character 15"></div>
+
+            <div class="image-card"><img src="GZ (17).jpg" alt="Character 17"></div>
+            <div class="image-card"><img src="GZ (18).jpg" alt="Character 18"></div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.image-card').forEach(function(card) {
+            const img = card.querySelector('img');
+            if (!img) return;
+
+            const src = img.getAttribute('src') || '';
+            const name = src.split('/').pop().replace(/\.[^.]+$/, '');
+
+            const label = document.createElement('div');
+            label.className = 'image-name';
+            label.textContent = name;
+            card.appendChild(label);
+        });
+    </script>
+</body>
+</html>
