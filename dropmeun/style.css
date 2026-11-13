@@ -1,0 +1,79 @@
+/* ការកំណត់ទូទៅសម្រាប់គ្រប់គ្រងទម្រង់នៃទំព័រ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'khmer os muol light';
+}
+
+/* រចនាបថ navbar ផ្ទៃខាងលើ */
+.navbar {
+  background-color: #0000ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.right-content,
+.left-content {
+  color: white;
+  font-size: 24px;
+  display: flex;
+  gap: 15px;
+}
+
+/* រចនាបញ្ជីតំណរបស់ navbar */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+/* រចនាបញ្ជី dropdown នៅពេល hover */
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links li a:hover {
+  background-color: #1f1d74;
+}
+
+.dropdown:hover .submenu,
+.dropdown:focus-within .submenu {
+  display: block;
+}
+
+/* លក្ខណៈរចនារបស់เมนុ dropdown */
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  list-style: none;
+  background-color: #ffffff;
+  min-width: 180px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.submenu li a {
+  color: #1f1d74;
+  padding: 12px 16px;
+  white-space: nowrap;
+}
+
+.submenu li a:hover {
+  background-color: #e9e9ff;
+}

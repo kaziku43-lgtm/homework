@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9; 
+            font-family: "Kantumruy Pro", sans-serif;
+        }
+
+        .card {
+            display: flex;
+            width: 70%;
+            max-width: 800px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .logo {
+            width: 45%;
+            background: rgb(45, 40, 121);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .logo img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+        .frm {
+            width: 55%;
+            background: white; 
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        h4 {
+            text-align: center;
+            color: #888;
+            font-weight: normal;
+            margin-top: 0;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .input {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ddd; 
+            line-height: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Kantumruy Pro", sans-serif;
+            margin-bottom: 15px;
+        }
+
+        .input:focus {
+            box-shadow: 0 0 5px 1px rgb(45, 40, 121);
+            border-color: rgb(45, 40, 121);
+            outline: none;
+            transition: 0.3s;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            color: #333;
+        }
+        .password-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .password-row .col {
+            flex: 1;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            border: none;
+            background: rgb(45, 40, 121); 
+            color: white;
+            padding: 12px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button[type="submit"]:hover {
+            background: rgb(22, 19, 59);
+        }
+
+        .btn-register {
+            width: 100%;
+            background: none;
+            border: none;
+            color: rgb(85, 78, 177);
+            margin-top: 15px;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: "Kantumruy Pro", sans-serif;
+        }
+        
+        .btn-register:hover {
+            text-decoration: underline;
+        }
+    </style>
+    </head>
+    <body>
+
+    <div class="card">
+        <div class="logo">
+            <img src="sytem.jpg" >
+        </div>
+
+        <form action="" class="frm">
+            <h2>Register</h2>
+            <h4>Create your new store account</h4>
+             
+            <label for="store_name">Store's Name</label>
+            <input id="store_name" class="input" type="text" name="store_name" required placeholder="Ex: Shoe shop  Hav Savin">
+
+            <label for="email">Email</label>
+            <input id="email" class="input" type="email" name="email" required placeholder="your_email@gmail.com">
+            <label for="username">Username</label>
+            <input id="username" class="input" type="text" name="user" required maxlength="50" placeholder="Ex:Hav Savin  ហាវ​ សាវិន">
+
+            <div class="password-row">
+                <div class="col">
+                    <label for="password">New Password</label>
+                    <input id="password" class="input" type="password" name="password" required>
+                </div>
+                <div class="col">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input id="confirm_password" class="input" type="password" name="confirm_password" required>
+                </div>
+            </div>
+            
+            <button type="submit">Register</button>
+            <a href="index3.html"><button type="button" class="btn-register">Back to Login</button></a>
+        </form>
+    </div>
+    
+    </body>
+    </html>
