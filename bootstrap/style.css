@@ -1,0 +1,36 @@
+/* Page spacing */
+body{
+    padding:20px;
+}
+
+/* Container background */
+.container-fluid{
+    background-color:rgb(239, 247, 212);
+}
+
+/* Carousel height */
+.carousel-item{
+    height:500px;
+}
+
+/* Edit icon appearance */
+.la-edit{
+    color:white;
+    background-color:gray;
+    padding:10px;
+    border-radius:5px;
+
+}
+
+/* Delete icon appearance */
+.la-trash-alt{
+    color:white;
+    background-color:red;
+    padding:10px;
+    border-radius:5px;
+}
+
+/* Grid border helper */
+.curborder{
+    border:1px solid red;
+}

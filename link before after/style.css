@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    position: relative;
+}
+a::before{
+    content:"";
+    width:5px;
+    height:2px;
+    background-color:blue;
+    position:absolute;
+    right:0;
+    bottom:0;
+    transition:0.3s;
+}
+a:hover::before{
+    width:100%;
+    transition:0.3s;
+}
+a::after{
+    content:"";
+    width:5px;
+    height:2px;
+    background-color:red;
+    position:absolute;
+    left:0;
+    top:0;
+    transition:0.3s;
+}
+a:hover::after{
+    width:100%;
+    transition:0.3s;
+}

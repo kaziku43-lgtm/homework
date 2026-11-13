@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data" class="frm">
+        <div class="field-row">
+            <label for="username">Username:</label>
+            <input id="username" type="text" maxlength="20" class="input-field"
+                   required name="username" value="Hav SAVin ហាវ​ សាវិន" placeholder="Username">
+        </div>
+
+        <div class="field-row">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" value="havsavin@gmail.com">
+        </div>
+
+        <div class="field-row">
+            <label for="password">Password:</label>
+            <input id="password" type="password" maxlength="6" name="password" placeholder="Password">
+        </div>
+
+        <div class="field-row">
+            <label for="qty">Qty:</label>
+            <input id="qty" type="number" min="1" max="100">
+        </div>
+
+        <div class="field-row">
+            <label for="date">Date:</label>
+            <input id="date" type="date" name="date" value="2026-01-02" max="2026-06-03">
+        </div>
+
+        <div class="field-row">
+            <span>Gender:</span>
+            <div class="radio-row">
+                <label class="option">Male: <input type="radio" checked name="gender" value="male"></label>
+                <label class="option">Female: <input type="radio" name="gender" value="female"></label>
+            </div>
+        </div>
+
+        <div class="field-row">
+            <span>Free:</span>
+            <div class="options-row">
+                <label class="option">Mon <input type="checkbox" name="Mon" value="Mon" checked></label>
+                <label class="option">Tue <input type="checkbox" name="Tue" value="Tue"></label>
+                <label class="option">Wed <input type="checkbox" name="Wed" value="Wed"></label>
+                <label class="option">Thu <input type="checkbox" name="Thu" value="Thu"></label>
+                <label class="option">Fri <input type="checkbox" name="Fri" value="Fri"></label>
+                <label class="option">Sat <input type="checkbox" name="Sat" value="Sat"></label>
+                <label class="option">Sun <input type="checkbox" name="Sun" value="Sun" checked></label>
+            </div>
+        </div>
+
+        <div class="field-row">
+            <label for="group">MAKE Group:</label>
+            <select name="group" id="group">
+                <option>=== Select Group ===</option>
+                <option value="1">sx10</option>
+                <option value="2">sx34</option>
+                <option value="3">sx12</option>
+            </select>
+        </div>
+
+        <div class="field-row">
+            <label for="color">Color:</label>
+            <input id="color" class="color-input" type="color" name="color" value="#9ec2a1">
+        </div>
+
+        <div class="field-row">
+            <label for="range">Select range:</label>
+            <input type="range" id="range" min="0" max="100" value="50">
+        </div>
+
+        <div class="field-row">
+            <label for="file">Choose file:</label>
+            <div class="file-upload-line">
+                <input id="file" class="file-input" type="file" name="file" accept=".jpg, .jpeg, .png, .gif">
+                <label for="file" class="file-upload-btn">Choose file</label>
+                <span class="file-upload-name">No file selected</span>
+            </div>
+        </div>
+
+        <div class="field-row">
+            <label for="description">Description:</label>
+            <textarea name="description" placeholder="Enter description here..." id="description" maxlength="200"
+                        style="height: 100px; width: 100%;"></textarea>
+        </div>
+
+        <div class="form-actions">
+            <button class="btn btn-login" type="submit" style="min-height: 60px;">Login</button>
+            <button class="btn btn-reset" type="reset" style="min-height: 60px;">Reset</button>
+        </div>
+    </form>
+
+</body>
+</html>

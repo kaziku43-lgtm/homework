@@ -1,0 +1,861 @@
+﻿<!DOCTYPE html>
+<html lang="km">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ផែនទីកម្ពុជា</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body id="top">
+
+    <header>
+        <a class="brand" href="#top">ផែនទី <span>កម្ពុជា</span></a>
+        <nav>
+            <a href="#top">ទំព័រដើម</a>
+
+            <div class="nav-item">
+                <a href="#provinces">ខេត្ត &#9662;</a>
+                <div class="drop">
+                    <a href="banteay-meanchey.html">បន្ទាយមានជ័យ</a>
+                    <a href="battambang.html">បាត់ដំបង</a>
+                    <a href="kampong-cham.html">កំពង់ចាម</a>
+                    <a href="kampong-chhnang.html">កំពង់ឆ្នាំង</a>
+                    <a href="kampong-speu.html">កំពង់ស្ពឺ</a>
+                    <a href="kampong-thom.html">កំពង់ធំ</a>
+                    <a href="kampot.html">កំពត</a>
+                    <a href="kandal.html">កណ្ដាល</a>
+                    <a href="kep.html">កែប</a>
+                    <a href="koh-kong.html">កោះកុង</a>
+                    <a href="kratie.html">ក្រចេះ</a>
+                    <a href="mondulkiri.html">មណ្ឌលគិរី</a>
+                    <a href="oddar-meanchey.html">ឧត្តរមានជ័យ</a>
+                    <a href="phnom-penh.html">ភ្នំពេញ</a>
+                    <a href="preah-sihanouk.html">ព្រះសីហនុ</a>
+                    <a href="preah-vihear.html">ព្រះវិហារ</a>
+                    <a href="prey-veng.html">ព្រៃវែង</a>
+                    <a href="pursat.html">ពោធិ៍សាត់</a>
+                    <a href="ratanakiri.html">រតនគិរី</a>
+                    <a href="siem-reap.html">សៀមរាប</a>
+                    <a href="stung-treng.html">ស្ទឹងត្រែង</a>
+                    <a href="svay-rieng.html">ស្វាយរៀង</a>
+                    <a href="takeo.html">តាកែវ</a>
+                    <a href="tbong-khmum.html">ត្បូងឃ្មុំ</a>
+                </div>
+
+            </div>
+            <a href="#map">ផែនទី</a>
+            <a href="#about">អំពី</a>
+        </nav>
+    </header>
+
+    <main>
+    <section class="attraction-section" id="attractions">
+        <div class="attraction-heading">
+            <h1>Popular Tourist Attractions</h1>
+            <a href="#attractions-grid">View All Tourist Attractions <span aria-hidden="true">&rarr;</span></a>
+        </div>
+
+        <div class="attraction-filters" role="group" aria-label="Filter tourist attractions">
+            <button class="attraction-filter is-active" type="button" data-filter="all" aria-pressed="true">ទាំងអស់</button>
+            <button class="attraction-filter" type="button" data-filter="market" aria-pressed="false">ផ្សារ</button>
+            <button class="attraction-filter" type="button" data-filter="museum" aria-pressed="false">សារមន្ទីរ</button>
+            <button class="attraction-filter" type="button" data-filter="temple" aria-pressed="false">វត្ត និងប្រាសាទ</button>
+            <button class="attraction-filter" type="button" data-filter="landmark" aria-pressed="false">កន្លែងល្បី</button>
+            <button class="attraction-filter" type="button" data-filter="riverside" aria-pressed="false">មាត់ទន្លេ</button>
+        </div>
+
+        <div class="attraction-grid" id="attractions-grid">
+            <article class="attraction-card" data-category="market">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/20171125_Central_Market%2C_Phnom_Penh_4368_DxO.jpg/960px-20171125_Central_Market%2C_Phnom_Penh_4368_DxO.jpg" alt="អគារផ្សារធំថ្មីនៅភ្នំពេញ" fetchpriority="high">
+                <h2>ផ្សារធំថ្មី</h2>
+                <a class="attraction-credit" href="https://commons.wikimedia.org/wiki/File:20171125_Central_Market,_Phnom_Penh_4368_DxO.jpg" target="_blank" rel="noopener noreferrer">រូបភាព៖ Wikimedia Commons</a>
+            </article>
+            <article class="attraction-card" data-category="museum">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2016_Phnom_Penh%2C_Muzeum_Ludob%C3%B3jstwa_Tuol_Sleng_%2817%29.jpg/960px-2016_Phnom_Penh%2C_Muzeum_Ludob%C3%B3jstwa_Tuol_Sleng_%2817%29.jpg" alt="សារមន្ទីរប្រល័យពូជសាសន៍ទួលស្លែង" loading="lazy">
+                <h2>សារមន្ទីរទួលស្លែង</h2>
+                <a class="attraction-credit" href="https://commons.wikimedia.org/wiki/File:2016_Phnom_Penh,_Muzeum_Ludob%C3%B3jstwa_Tuol_Sleng_(17).jpg" target="_blank" rel="noopener noreferrer">រូបភាព៖ Wikimedia Commons</a>
+            </article>
+            <article class="attraction-card" data-category="temple">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/2016_Phnom_Penh%2C_Wat_Phnom_%2802%29.jpg/960px-2016_Phnom_Penh%2C_Wat_Phnom_%2802%29.jpg" alt="វត្តភ្នំក្នុងរាជធានីភ្នំពេញ" loading="lazy">
+                <h2>វត្តភ្នំ</h2>
+                <a class="attraction-credit" href="https://commons.wikimedia.org/wiki/File:2016_Phnom_Penh,_Wat_Phnom_(02).jpg" target="_blank" rel="noopener noreferrer">រូបភាព៖ Wikimedia Commons</a>
+            </article>
+            <article class="attraction-card" data-category="market">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/OrusseyMarket_PhnomPenh_2005_4.JPG/960px-OrusseyMarket_PhnomPenh_2005_4.JPG" alt="ផ្សារអូរឫស្សីនៅភ្នំពេញ" loading="lazy">
+                <h2>ផ្សារអូរឫស្សី</h2>
+                <a class="attraction-credit" href="https://commons.wikimedia.org/wiki/File:OrusseyMarket_PhnomPenh_2005_4.JPG" target="_blank" rel="noopener noreferrer">រូបភាព៖ Wikimedia Commons</a>
+            </article>
+            <article class="attraction-card" data-category="landmark">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/02-Independence_Monument_Phnom_Penh-nX-3.jpg/960px-02-Independence_Monument_Phnom_Penh-nX-3.jpg" alt="វិមានឯករាជ្យនៅភ្នំពេញ" loading="lazy">
+                <h2>វិមានឯករាជ្យ</h2>
+                <a class="attraction-credit" href="https://commons.wikimedia.org/wiki/File:02-Independence_Monument_Phnom_Penh-nX-3.jpg" target="_blank" rel="noopener noreferrer">រូបភាព៖ Wikimedia Commons</a>
+            </article>
+            <article class="attraction-card" data-category="landmark">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/2016_Phnom_Penh%2C_Pa%C5%82ac_Kr%C3%B3lewski%2C_Preah_Tineang_Phhochani_%2814%29.jpg/960px-2016_Phnom_Penh%2C_Pa%C5%82ac_Kr%C3%B3lewski%2C_Preah_Tineang_Phhochani_%2814%29.jpg" alt="ព្រះបរមរាជវាំងនៅភ្នំពេញ" loading="lazy">
+                <h2>ព្រះបរមរាជវាំង</h2>
+                <a class="attraction-credit" href="https://commons.wikimedia.org/wiki/File:2016_Phnom_Penh,_Pa%C5%82ac_Kr%C3%B3lewski,_Preah_Tineang_Phhochani_(14).jpg" target="_blank" rel="noopener noreferrer">រូបភាព៖ Wikimedia Commons</a>
+            </article>
+            <article class="attraction-card" data-category="riverside">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Riverside_Park%2C_Phnom_Penh_2.jpg/960px-Riverside_Park%2C_Phnom_Penh_2.jpg" alt="សួនច្បារមាត់ទន្លេភ្នំពេញ" loading="lazy">
+                <h2>សួនច្បារមាត់ទន្លេ</h2>
+                <a class="attraction-credit" href="https://commons.wikimedia.org/wiki/File:Riverside_Park,_Phnom_Penh_2.jpg" target="_blank" rel="noopener noreferrer">រូបភាព៖ Wikimedia Commons</a>
+            </article>
+            <article class="attraction-card" data-category="market">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Russian_Market_area_Phnom_Penh_%2812200478233%29.jpg/960px-Russian_Market_area_Phnom_Penh_%2812200478233%29.jpg" alt="តំបន់ផ្សារទួលទំពូងនៅភ្នំពេញ" loading="lazy">
+                <h2>ផ្សារទួលទំពូង</h2>
+                <a class="attraction-credit" href="https://commons.wikimedia.org/wiki/File:Russian_Market_area_Phnom_Penh_(12200478233).jpg" target="_blank" rel="noopener noreferrer">រូបភាព៖ Wikimedia Commons</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="map-section" id="map">
+        <h1>ខេត្តនានារបស់កម្ពុជា</h1>
+        <img src="cambodia-map.png" usemap="#cambodiamap" width="1100" height="834" alt="ផែនទីខេត្តកម្ពុជា">
+
+        <map name="cambodiamap">
+            <area title="ទន្លេសាប" href="#oddar-meanchey" coords="439,358,442,371,428,378,413,353,424,350" shape="poly">
+            <area title="ទន្លេសាប" href="#oddar-meanchey" coords="322,278,378,293,402,320,405,352,426,373,452,379,466,384,466,406,446,415,418,407,400,371,360,359,329,313" shape="poly">
+            <area title="ឧត្តរមានជ័យ" href="oddar-meanchey.html" coords="211,101,220,120,240,126,235,146,239,154,249,153,258,143,264,143,273,157,282,160,282,166,301,162,315,150,402,151,418,158,427,153,456,155,459,133,471,120,462,112,464,86,457,81,440,81,432,75,414,83,403,80,396,86,361,87,355,81,329,79,326,68,321,73,304,69,289,80,279,78,275,83,257,83,245,88,234,86" shape="poly">
+            <area title="បន្ទាយមានជ័យ" href="banteay-meanchey.html" coords="279,162,272,160,261,144,251,155,237,156,233,144,238,127,222,126,210,105,198,109,187,131,188,143,165,160,156,187,125,205,131,218,120,226,85,227,89,239,146,239,147,255,159,252,191,261,229,252,273,262,272,209,279,203,276,200" shape="poly">
+            <area title="សៀមរាប" href="siem-reap.html" coords="281,170,280,205,275,215,277,260,297,264,309,274,322,274,342,284,380,293,400,316,410,351,414,345,421,345,426,358,427,351,444,348,462,328,465,299,480,290,483,259,497,244,497,238,453,228,459,208,446,176,455,158,317,154,303,166" shape="poly">
+            <area title="ព្រះវិហារ" href="preah-vihear.html" coords="509,70,506,76,497,73,487,83,470,81,463,109,472,124,461,136,459,162,449,178,460,197,457,227,500,237,485,263,485,283,512,272,543,273,540,298,556,319,625,262,654,250,662,240,657,171,688,170,689,160,720,158,700,142,700,133,673,129,661,120,644,130,625,130,608,115,596,86,585,108,569,110,557,91,557,78" shape="poly">
+            <area title="ស្ទឹងត្រែង" href="stung-treng.html" coords="836,40,825,46,814,66,787,62,780,82,743,84,749,103,763,111,765,125,775,132,775,142,762,150,761,165,742,162,742,175,735,176,731,161,695,162,688,172,666,169,657,175,666,206,662,278,669,287,716,308,733,296,728,280,744,287,761,261,820,253,849,269,852,265,835,229,835,206,850,200,857,189,850,147,866,145,881,130,874,115,873,72,852,66,839,54" shape="poly">
+            <area title="រតនគិរី" href="ratanakiri.html" coords="1015,21,1005,32,1001,50,974,39,966,58,942,75,930,68,915,90,903,87,889,93,876,78,883,134,867,148,853,148,861,189,850,204,838,208,838,226,853,248,852,269,882,292,929,296,935,291,934,272,944,267,955,271,963,260,988,276,1001,268,1022,274,1029,268,1030,234,1015,194,1000,185,999,149,985,146,978,126,990,101,990,78,1007,62" shape="poly">
+            <area title="បាត់ដំបង" href="battambang.html" coords="88,242,87,276,111,323,121,330,125,312,135,306,146,308,154,318,157,376,125,390,154,418,165,442,196,425,212,431,255,409,275,410,292,419,310,415,315,407,314,357,325,353,331,330,338,326,327,315,327,281,307,277,293,266,233,255,192,264,145,256,144,242" shape="poly">
+            <area title="ប៉ៃលិន" href="pailin.html" coords="141,309,137,309,126,316,127,327,123,333,112,333,111,339,114,344,114,354,116,355,116,359,118,361,119,372,114,376,113,379,115,388,140,384,155,374,155,344,152,341,152,323,153,322,147,313" shape="poly">
+            <area title="កំពង់ធំ" href="kampong-thom.html" coords="692,420,679,349,682,339,677,336,676,310,659,280,658,250,626,265,559,321,552,321,540,306,541,275,515,274,485,285,468,300,464,331,437,353,443,363,438,377,458,373,471,380,466,400,471,414,474,405,497,402,531,416,538,443,544,444,536,459,540,469,558,465,595,472,587,443,610,440,624,447,633,423,651,430,660,422" shape="poly">
+            <area title="ក្រចេះ" href="kratie.html" coords="669,289,678,307,685,370,703,447,695,463,712,464,714,474,741,476,752,486,752,496,775,507,775,519,871,516,884,496,885,478,875,465,851,457,842,439,806,418,817,381,841,366,851,347,816,327,801,311,804,297,817,296,803,280,803,258,758,266,747,283,749,301,735,297,720,310" shape="poly">
+            <area title="មណ្ឌលគិរី" href="mondulkiri.html" coords="806,258,805,276,818,298,806,299,804,310,853,345,852,359,820,382,808,416,845,437,852,454,876,462,887,475,888,496,909,499,922,494,950,459,970,450,987,450,999,464,1019,445,1024,387,1007,333,1026,275,1010,275,1005,269,986,278,965,263,956,274,936,273,939,286,933,297,893,298,817,255" shape="poly">
+            <area title="ពោធិ៍សាត់" href="pursat.html" coords="449,422,413,406,399,372,376,369,351,348,344,349,336,330,328,354,316,359,318,397,310,419,289,421,261,411,213,433,199,426,191,435,154,445,149,480,163,498,163,508,197,511,222,522,255,514,269,493,294,493,329,525,344,526,355,541,365,525,376,524,383,531,390,527,397,505,412,505,412,468,441,448,449,436" shape="poly">
+            <area title="កំពង់ឆ្នាំង" href="kampong-chhnang.html" coords="494,404,478,409,475,417,491,422,491,439,482,439,472,430,469,422,452,422,452,438,445,442,440,454,421,462,413,476,420,508,429,515,430,530,438,536,440,545,449,555,464,557,469,561,479,560,493,548,508,548,518,544,518,534,526,532,529,522,541,511,538,494,542,477,533,462,533,455,540,450,541,445,536,444,535,437,530,433,528,418" shape="poly">
+            <area title="កំពង់ចាម" href="kampong-cham.html" coords="692,423,661,425,656,432,635,427,627,449,608,442,593,443,587,448,597,464,596,474,545,468,542,471,545,486,540,497,543,515,532,525,532,545,546,548,552,538,570,539,572,558,589,561,590,556,604,549,612,539,623,538,637,544,641,541,639,528,644,522,644,512,648,506,656,507,658,503,655,492,660,462,666,457,693,460,700,454" shape="poly">
+            <area title="ត្បូងឃ្មុំ" href="tbong-khmum.html" coords="662,467,661,508,648,515,644,547,638,548,642,558,689,560,706,583,717,572,733,577,745,553,789,561,798,570,807,567,821,570,816,562,816,553,822,534,815,520,812,523,773,522,772,508,751,500,751,490,738,479,713,476,710,469,692,470,689,464,681,467,673,461,666,462" shape="poly">
+            <area title="កោះកុង" href="koh-kong.html" coords="198,615,209,643,191,657" shape="poly">
+            <area title="កោះកុង" href="koh-kong.html" coords="212,671,205,721,219,721" shape="poly">
+            <area title="កោះកុង" href="koh-kong.html" coords="293,496,271,495,257,517,232,524,197,514,163,513,170,521,171,537,184,548,186,578,197,590,210,593,211,608,219,609,217,629,226,632,226,640,214,650,222,672,218,710,228,718,242,709,268,717,279,674,288,664,300,664,308,678,320,681,321,698,337,719,344,713,340,690,357,668,355,651,390,613,382,603,367,603,342,583,340,543,352,542,342,528,327,527" shape="poly">
+            <area title="កំពង់ស្ពឺ" href="kampong-speu.html" coords="342,544,345,582,369,601,381,599,392,607,390,650,386,656,390,665,408,668,418,679,435,677,440,671,474,673,495,682,503,680,507,639,520,624,498,618,502,583,515,548,495,551,477,564,448,558,427,531,426,516,418,511,416,502,414,506,399,508,391,530,378,533,370,526,358,543" shape="poly">
+            <area title="ភ្នំពេញ" href="phnom-penh.html" coords="520,612,562,609,552,584,545,559,527,570,509,598" shape="poly">
+            <area title="កណ្ដាល" href="kandal.html" coords="526,536,521,539,506,579,501,617,523,619,523,625,516,634,543,632,553,637,550,650,559,657,559,664,566,666,561,697,568,699,570,708,574,703,583,703,584,710,593,711,595,679,600,675,602,663,610,652,605,640,610,617,596,604,584,601,580,593,580,579,588,564,570,561,571,548,561,545,559,538,548,549,531,547,530,538" shape="poly">
+            <area title="ព្រៃវែង" href="prey-veng.html" coords="619,540,592,559,582,584,587,599,598,601,607,613,617,617,617,624,610,627,614,637,614,654,602,679,597,710,622,720,637,702,659,704,671,700,667,698,670,680,660,678,662,671,659,662,671,657,676,648,681,648,678,622,685,594,690,589,704,586,688,563,639,559,634,545" shape="poly">
+            <area title="ស្វាយរៀង" href="svay-rieng.html" coords="688,595,681,622,683,649,679,650,673,659,661,662,661,676,672,679,672,690,668,696,677,699,693,690,704,690,719,712,720,722,727,724,732,714,738,714,757,730,775,730,767,716,767,700,776,700,772,686,774,665,737,663,734,659,727,659,723,647,716,646,717,622,722,617,718,615,719,599,709,596,706,589,705,592" shape="poly">
+            <area title="ព្រះសីហនុ" href="preah-sihanouk.html" coords="229,742,242,734,252,748,245,763,255,763,264,785,245,777" shape="poly">
+            <area title="ព្រះសីហនុ" href="preah-sihanouk.html" coords="387,620,374,630,356,656,358,673,353,685,342,693,344,714,339,721,330,722,319,747,299,751,299,756,291,765,302,777,310,778,313,788,319,785,335,786,338,796,340,790,336,788,336,782,343,781,352,767,353,758,361,758,366,766,370,765,371,752,365,746,368,730,365,726,366,704,378,693,387,694,392,691,391,670,384,660,384,653,388,648" shape="poly">
+            <area title="តាកែវ" href="takeo.html" coords="541,635,513,635,510,639,504,683,491,684,477,680,472,675,456,675,456,681,470,685,476,692,479,700,477,717,501,714,506,719,510,741,503,754,504,766,509,767,511,782,517,784,538,782,553,761,576,748,565,723,566,701,559,699,563,670,557,666,557,659,548,653,549,639" shape="poly">
+            <area title="កំពត" href="kampot.html" coords="392,667,393,693,390,696,380,695,366,706,369,708,367,725,370,727,367,743,374,752,374,763,369,770,390,778,408,776,410,770,423,770,427,776,449,774,456,785,455,793,460,801,470,802,478,796,479,787,484,786,485,782,507,780,507,769,501,768,501,752,510,738,500,717,476,720,473,693,467,687,454,684,452,673,442,674,437,680,418,682,407,671" shape="poly">
+            <area title="កែប" href="kep.html" coords="430,776,430,779,431,780,431,781,433,783,433,785,434,786,434,790,435,791,436,791,437,790,438,790,437,789,437,787,438,786,452,786,451,786,450,785,450,784,448,782,448,778,447,778,446,777,432,777,431,776" shape="poly">
+        </map>
+    </section>
+    <div class="dropdown">
+
+                <button class="dropdown-btn">
+                    ជ្រើសរើសខេត្ត
+                    <span class="arrow"></span>
+                </button>
+
+                    <div class="dropdown-menu">
+
+                        <a href="phnom-penh.html">
+                            ០១. រាជធានីភ្នំពេញ
+                        </a>
+
+                        <a href="Banteay-Meanchey.html">
+                            ០២. ខេត្តបន្ទាយមានជ័យ
+                        </a>
+
+                        <a href="battambang.html">
+                            ០៣. ខេត្តបាត់ដំបង
+                        </a>
+
+                        <a href="kampong-cham.html">
+                            ០៤. ខេត្តកំពង់ចាម
+                        </a>
+
+                        <a href="kampong-chhnang.html">
+                            ០៥. ខេត្តកំពង់ឆ្នាំង
+                        </a>
+
+                        <a href="kampong-thom.html">
+                            ០៦. ខេត្តកំពង់ធំ
+                        </a>
+
+                        <a href="kampong-speu.html">
+                            ០៧. ខេត្តកំពង់ស្ពឺ
+                        </a>
+
+                        <a href="kampot.html">
+                            ០៨. ខេត្តកំពត
+                        </a>
+
+                        <a href="kandal.html">
+                            ០៩. ខេត្តកណ្តាល
+                        </a>
+
+                         <a href="mondulkiri.html">
+                            ១០. ខេត្តកោះកុង
+                        </a>
+
+                        <a href="kratie.html">
+                            ១១. ខេត្តក្រចេះ
+                        </a>
+
+                        <a href="mondulkiri-real.html">
+                            ១២. ខេត្តមណ្ឌលគិរី
+                        </a>
+
+                        <a href="oddar-meanchey.html">
+                            ១៣. ខេត្តឧត្តរមានជ័យ
+                        </a>
+
+                        <a href="pailin.html">
+                            ១៤. ខេត្តប៉ៃលិន
+                        </a>
+
+                        <a href="preah-sihanouk.html">
+                            ១៥. ខេត្តព្រះសីហនុ
+                        </a>
+
+                        <a href="preah-vihear.html">
+                            ១៦. ខេត្តព្រះវិហារ
+                        </a>
+
+                        <a href="prey-veng.html">
+                            ១៧. ខេត្តព្រៃវែង
+                        </a>
+
+                        <a href="pursat.html">
+                            ១៨. ខេត្តពោធិ៍សាត់
+                        </a>
+
+                        <a href="ratanakiri.html">
+                            ១៩. ខេត្តរតនគិរី
+                        </a>
+
+                        <a href="siem-reap.html">
+                            ២០. ខេត្តសៀមរាប
+                        </a>
+
+                        <a href="stung-treng.html">
+                            ២១. ខេត្តស្ទឹងត្រែង
+                        </a>
+
+                        <a href="svay-rieng.html">
+                            ២២. ខេត្តស្វាយរៀង
+                        </a>
+
+                        <a href="takeo.html">
+                            ២៣. ខេត្តតាកែវ
+                        </a>
+
+                        <a href="tbong-khmum.html">
+                            ២៤. ខេត្តត្បូងឃ្មុំ
+                        </a>
+
+                        <a href="kep.html">
+                            ២៥. ខេត្តកែប
+                        </a>
+
+                    </div>
+
+                </div>
+
+                 <!-- អំពីកម្ពុជា -->
+                <a href="../index.html#about">អំពីកម្ពុជា</a>
+
+            </nav>
+
+        </div>
+
+
+    <section class="cards" id="provinces">
+
+        <div class="card" id="oddar-meanchey" data-code="OMC" style="--accent:#c97b3f ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Oddar_Meanchey_seal.png" alt="ត្រាឧត្តរមានជ័យ">
+            </div>
+            <div class="contentBox">
+                <h2>ឧត្តរមានជ័យ</h2>
+                <p class="tagline">ព្រំដែនខាងជើង</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ប្រាសាទបន្ទាយឆ្មារ</span><span>អន្លង់វែង</span><span>ព្រំដែនថៃ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ប្រាសាទបន្ទាយបុរាណ &bull; កន្លែងប្រវត្តិសាស្ត្រថ្មីៗ</span>
+                </div>
+
+                <a class="more" href="oddar-meanchey.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="banteay-meanchey" data-code="BMC" style="--accent:#2fa392 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Banteay_Meanchey_seal.png" alt="ត្រាបន្ទាយមានជ័យ">
+            </div>
+            <div class="contentBox">
+                <h2>បន្ទាយមានជ័យ</h2>
+                <p class="tagline">ច្រកទ្វារទៅកាន់ប្រទេសថៃ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ប៉ោយប៉ែត</span><span>សិរីសោភ័ណ</span><span>ផ្លូវរថភ្លើង</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ព្រំដែនផ្លូវគោកមមាញឹកបំផុត &bull; ច្រកទ្វារពាណិជ្ជកម្ម និងផ្លូវរថភ្លើង</span>
+                </div>
+
+                <a class="more" href="banteay-meanchey.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="siem-reap" data-code="REP" style="--accent:#c99a3a ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Siem_Reap_Province_seal.png" alt="ត្រាសៀមរាប">
+            </div>
+            <div class="contentBox">
+                <h2>សៀមរាប</h2>
+                <p class="tagline">ជាទីតាំងប្រាសាទអង្គរវត្ត</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>អង្គរវត្ត</span><span>ផ្លូវផាប់</span><span>ទន្លេសាប</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ឧទ្យានអង្គរជាបេតិកភណ្ឌយូណេស្កូ &bull; របាំអប្សរា &bull; ភូមិលើបឹង</span>
+                </div>
+
+                <a class="more" href="siem-reap.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="preah-vihear" data-code="PVH" style="--accent:#a98b4f ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Preah_Vihear.png" alt="ត្រាព្រះវិហារ">
+            </div>
+            <div class="contentBox">
+                <h2>ព្រះវិហារ</h2>  
+                <p class="tagline">ប្រាសាទលើមេឃ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ប្រាសាទព្រះវិហារ</span><span>កោះកេរ</span><span>ប្រាសាទបឹងមាលា</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ទីសក្ការៈលើច្រាំងជាបេតិកភណ្ឌយូណេស្កូ &bull; ប្រាសាទចាស់ក្នុងព្រៃជ្រៅ</span>
+                </div>
+
+                <a class="more" href="preah-vihear.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="stung-treng" data-code="TNX" style="--accent:#3fb0c4 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Stung_Treng_seal.png" alt="ត្រាស្ទឹងត្រែង">
+            </div>
+            <div class="contentBox">
+                <h2>ស្ទឹងត្រែង</h2>
+                <p class="tagline">កន្លែងទន្លេជួបគ្នា</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ទន្លេមេគង្គ</span><span>ទន្លេសេកុង</span><span>តំបន់ដីសើមរាមសារ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ចំណុចប្រសព្វទន្លេមេគង្គ-សេកុង &bull; តំបន់ដីសើមការពារ</span>
+                </div>
+
+                <a class="more" href="stung-treng.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="ratanakiri" data-code="RBE" style="--accent:#58a852 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Ratanakiri.png" alt="ត្រារតនគិរី">
+            </div>
+            <div class="contentBox">
+                <h2>រតនគិរី</h2>
+                <p class="tagline">តំបន់ខ្ពង់រាបក្រហមព្រៃផ្សៃ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>បឹងយក្សឡោម</span><span>ទឹកជ្រោះ</span><span>បានលុង</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>បឹងក្នុងបាតភ្នំភ្លើង &bull; ព្រៃភ្នំ និងភូមិជនជាតិដើមភាគតិច</span>
+                </div>
+
+                <a class="more" href="ratanakiri.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="battambang" data-code="BBM" style="--accent:#d9a441 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Battambang_Province_seal.png" alt="ត្រាបាត់ដំបង">
+            </div>
+            <div class="contentBox">
+                <h2>បាត់ដំបង</h2>
+                <p class="tagline">ជង្រុកអង្ករនៃប្រទេសកម្ពុជា</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>រថភ្លើងឫស្សី</span><span>ភ្នំបាណន់</span><span>ល្អាងសត្វប្រចៀវ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ជិះនរី &bull; ផ្លូវសម័យអាណានិគម &bull; អង្ករល្អបំផុត</span>
+                </div>
+
+                <a class="more" href="battambang.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="pailin" data-code="PLN" style="--accent:#9a6fd0 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Seal_of_Pailin.png" alt="ត្រាប៉ៃលិន">
+            </div>
+            <div class="contentBox">
+                <h2>ប៉ៃលិន</h2>
+                <p class="tagline">ខេត្តត្បូង</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>រ៉ែត្បូង</span><span>ភ្នំយ៉ាត់</span><span>ភ្នំក្រវាញ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>រ៉ែសាភៀរ និងទទឹម &bull; ទេសភាពភ្នំ</span>
+                </div>
+
+                <a class="more" href="pailin.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="kampong-thom" data-code="KPT" style="--accent:#8fae4e ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Kampong_Thom_seal.png" alt="ត្រាកំពង់ធំ">
+            </div>
+            <div class="contentBox">
+                <h2>កំពង់ធំ</h2>
+                <p class="tagline">ដីស្ងប់ស្ងាត់កណ្ដាលប្រទេស</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>សំបូរព្រៃគុក</span><span>ស្ពានថ្ម</span><span>ទន្លេសាប</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ប្រាសាទរាជធានីចេនឡា &bull; ជាបេតិកភណ្ឌយូណេស្កូ</span>
+                </div>
+
+                <a class="more" href="kampong-thom.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="kratie" data-code="KTI" style="--accent:#5f9fd8 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Kratie_Province_logo.png" alt="ត្រាក្រចេះ">
+            </div>
+            <div class="contentBox">
+                <h2>ក្រចេះ</h2>
+                <p class="tagline">ដីនៃត្រីផ្សោត</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ត្រីផ្សោតអៀរវាឌី</span><span>កោះត្រង</span><span>ថ្ងៃលិចមេគង្គ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ត្រីផ្សោតទឹកសាបកម្រ &bull; ទីក្រុងចាស់តាមមាត់ទន្លេ</span>
+                </div>
+
+                <a class="more" href="kratie.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="mondulkiri" data-code="MWV" style="--accent:#4fae94 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Mondulkiri.png" alt="ត្រាមណ្ឌលគិរី">
+            </div>
+            <div class="contentBox">
+                <h2>មណ្ឌលគិរី</h2>
+                <p class="tagline">នគរនៃភ្នំតូចៗ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>មណ្ឌលអភិរក្សដំរី</span><span>ទឹកជ្រោះបូស្រា</span><span>សែនមនោរម្យ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ខ្ពង់រាបខ្ពស់បំផុត &bull; ព្រៃស្រល់ &bull; អាកាសធាតុត្រជាក់</span>
+                </div>
+
+                <a class="more" href="mondulkiri.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="pursat" data-code="PUR" style="--accent:#7f95a8 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Pursat.png" alt="ត្រាពោធិ៍សាត់">
+            </div>
+            <div class="contentBox">
+                <h2>ពោធិ៍សាត់</h2>
+                <p class="tagline">ថ្មម៉ាបប្រ និងភ្នំ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ការឆ្លាក់ថ្មម៉ាបប្រ</span><span>ភ្នំក្រវាញ</span><span>ទន្លេសាប</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ជាងចម្លាក់ថ្មម៉ាបប្រល្បីល្បាញ &bull; ជួរភ្នំព្រៃផ្សៃ</span>
+                </div>
+
+                <a class="more" href="pursat.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="kampong-chhnang" data-code="KCN" style="--accent:#cd7048 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Kampong_Chhnang_seal.png" alt="ត្រាកំពង់ឆ្នាំង">
+            </div>
+            <div class="contentBox">
+                <h2>កំពង់ឆ្នាំង</h2>
+                <p class="tagline">ទីក្រុងកំពង់ដីឥដ្ឋ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ភូមិឆ្នាំងដីឥដ្ឋ</span><span>ផ្ទះអណ្តែតទឹក</span><span>កំពង់ផែទន្លេ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>សិប្បកម្មដីឥដ្ឋប្រពៃណី &bull; ជីវិតភូមិអណ្តែតទឹក</span>
+                </div>
+
+                <a class="more" href="kampong-chhnang.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="kampong-cham" data-code="KCM" style="--accent:#cf5b47 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Kampong_Cham_seal.png" alt="ត្រាកំពង់ចាម">
+            </div>
+            <div class="contentBox">
+                <h2>កំពង់ចាម</h2>
+                <p class="tagline">បេះដូងនៃទន្លេមេគង្គ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ស្ពានគីហ្សូណា</span><span>ភ្នំប្រុស និងភ្នំស្រី</span><span>កោះប៉ែន</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ស្ពានទន្លេមេគង្គដំបូងគេ &bull; ភ្នំតាមរឿងព្រេងគូ</span>
+                </div>
+
+                <a class="more" href="kampong-cham.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="tbong-khmum" data-code="TBK" style="--accent:#74ab3f ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Tboung_Khmum_seal.png" alt="ត្រាត្បូងឃ្មុំ">
+            </div>
+            <div class="contentBox">
+                <h2>ត្បូងឃ្មុំ</h2>
+                <p class="tagline">ដីកណ្ដាលកៅស៊ូ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ចម្ការកៅស៊ូ</span><span>មាត់ទន្លេមេគង្គ</span><span>ទីក្រុងសួង</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ខេត្តថ្មីបំផុត &bull; ឧស្សាហកម្មទឹកកៅស៊ូ</span>
+                </div>
+
+                <a class="more" href="tbong-khmum.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="koh-kong" data-code="KKG" style="--accent:#2fae8a ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Koh_Kong_seal.png" alt="ត្រាកោះកុង">
+            </div>
+            <div class="contentBox">
+                <h2>កោះកុង</h2>
+                <p class="tagline">ព្រៃឆ្នេរសមុទ្រព្រៃផ្សៃ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ពាមក្រសោប</span><span>ទឹកជ្រោះតាតៃ</span><span>កោះកុង</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ព្រៃលិចទឹកតាមឆ្នេរ &bull; ឆ្នេរផ្សងព្រេងអេកូ</span>
+                </div>
+
+                <a class="more" href="koh-kong.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="kampong-speu" data-code="KSP" style="--accent:#46a06b ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Kampong_Speu_seal.png" alt="ត្រាកំពង់ស្ពឺ">
+            </div>
+            <div class="contentBox">
+                <h2>កំពង់ស្ពឺ</h2>
+                <p class="tagline">ដីស្ករត្នោត</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ឧទ្យានគិរីរម្យ</span><span>ស្ករត្នោត</span><span>ភ្នំឱរ៉ាល់</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ឧទ្យានជាតិ &bull; ទេសភាពព្រៃស្រល់លើភ្នំ</span>
+                </div>
+
+                <a class="more" href="kampong-speu.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="phnom-penh" data-code="PNH" style="--accent:#d4af37 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Seal_of_Phnom-Penh.jpg" alt="ត្រាភ្នំពេញ">
+            </div>
+            <div class="contentBox">
+                <h2>ភ្នំពេញ</h2>
+                <p class="tagline">គុជខ្មៅនៃអាស៊ី</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>វិមានព្រះបរមរាជវាំង</span><span>វត្តភ្នំ</span><span>ផ្សារធំថ្មី</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>រាជធានី &bull; ជាកន្លែងជួបគ្នារវាងទន្លេបី</span>
+                </div>
+
+                <a class="more" href="phnom-penh.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="kandal" data-code="KDL" style="--accent:#6c79c9 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Seal_of_Kandal.png" alt="ត្រាកណ្ដាល">
+            </div>
+            <div class="contentBox">
+                <h2>កណ្ដាល</h2>
+                <p class="tagline">ព័ទ្ធជុំវិញរាជធានី</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>កោះសូត្រ</span><span>ឧដុង្គ</span><span>ភូមិសិប្បកម្ម</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ការត្បាញសូត្រ &bull; ចេតិយរាជធានីចាស់</span>
+                </div>
+
+                <a class="more" href="kandal.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="prey-veng" data-code="PYV" style="--accent:#a3c04b ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Prey_Veng.png" alt="ត្រាព្រៃវែង">
+            </div>
+            <div class="contentBox">
+                <h2>ព្រៃវែង</h2>
+                <p class="tagline">វាលទំនាបបៃតងតាមទន្លេមេគង្គ</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ចម្ការស្វាយ</span><span>ភ្នំបាភ្នំ</span><span>ស្រែស្រូវ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ស្វាយផ្អែម &bull; វាលស្រែធំទូលាយ</span>
+                </div>
+
+                <a class="more" href="prey-veng.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="svay-rieng" data-code="SVR" style="--accent:#5b93c9 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Svay_Rieng.png" alt="ត្រាស្វាយរៀង">
+            </div>
+            <div class="contentBox">
+                <h2>ស្វាយរៀង</h2>
+                <p class="tagline">ជ្រុងភាគអាគ្នេយ៍</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>តំបន់សេដ្ឋកិច្ចពិសេសបាវិត</span><span>រង្វិលទន្លេមេគង្គ</span><span>ច្រកទ្វារវៀតណាម</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>តំបន់រោងចក្រកំពុងរីកចម្រើន &bull; ពាណិជ្ជកម្មព្រំដែន</span>
+                </div>
+
+                <a class="more" href="svay-rieng.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="preah-sihanouk" data-code="KOS" style="--accent:#00a6c0 ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Sihanoukville_seal.png" alt="ត្រាព្រះសីហនុ">
+            </div>
+            <div class="contentBox">
+                <h2>ព្រះសីហនុ</h2>
+                <p class="tagline">ត្បូងឆ្នេរសមុទ្រកម្ពុជា</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>អូទ្រេស</span><span>សេរេនឌីភីធី</span><span>អូឈើទាល</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>កំពង់ផែទឹកជ្រៅ &bull; កោះ &bull; កន្លែងមុជទឹកមើលត្រី</span>
+                </div>
+
+                <a class="more" href="preah-sihanouk.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="takeo" data-code="TKO" style="--accent:#bd7a3c ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Seal_of_Takeo.png" alt="ត្រាតាកែវ">
+            </div>
+            <div class="contentBox">
+                <h2>តាកែវ</h2>
+                <p class="tagline">ជម្រកនៃអរិយធម៌</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ភ្នំដា</span><span>អង្គរបុរី</span><span>ទន្លេបាទី</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>សិលាចារឹកខ្មែរចាស់បំផុត &bull; ប្រាសាទសម័យហ្វូណន</span>
+                </div>
+
+                <a class="more" href="takeo.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="kampot" data-code="KMP" style="--accent:#d0563f ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Kampot_logo.png" alt="ត្រាកំពត">
+            </div>
+            <div class="contentBox">
+                <h2>កំពត</h2>
+                <p class="tagline">រដ្ឋធានីម្រេច</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ចម្ការម្រេច</span><span>ភ្នំបូកគោ</span><span>ផ្សារក្ដាម</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ម្រេចល្បីល្បាញពិភពលោក &bull; ច្រាំងទន្លេសម័យអាណានិគម</span>
+                </div>
+
+                <a class="more" href="kampot.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+        <div class="card" id="kep" data-code="KEP" style="--accent:#ef6f4f ">
+            <div class="imgBox">
+                <img class="visual" src="icon/Seal_of_Kep_Provincial_Administration.png" alt="ត្រាកែប">
+            </div>
+            <div class="contentBox">
+                <h2>កែប</h2>
+                <p class="tagline">ថ្ងៃឈប់សម្រាកមាត់សមុទ្រ និងក្ដាម</p>
+                <div class="info chips">
+                    <h3>ចំណុចលេចធ្លោ :</h3>
+                    <span>ផ្សារក្ដាម</span><span>ឆ្នេរកែប</span><span>កោះទន្សាយ</span>
+                </div>
+                <div class="info facts">
+                    <h3>ល្បីល្បាញអំពី :</h3>
+                    <span>ខេត្តតូចបំផុត &bull; ក្ដាមម្រេចល្បីល្បាញ</span>
+                </div>
+
+                <a class="more" href="kep.html">ស្វែងយល់បន្ថែម</a>
+            </div>
+        </div>
+
+    </section>
+
+    </main>
+    <footer id="about">
+
+
+        <div class="footer-top">
+
+            <!--TEACHER -->
+            <div class="footer-col">
+
+                <img src="photo_2026-08-10_01-44-25.jpg" class="footer-logo teacher-logo" alt="Teacher">
+
+                <h3>សាស្ត្រាចារ្យបង្រៀន</h3>
+
+                <p>
+                    សាស្រ្តាចារ្យ : រី វិសាន<br> លេខទូរស័ព្ទ : 096 657 00340<br> មុខវិជ្ជា : WD I
+                </p>
+
+            </div>
+
+            <!-- SETEC -->
+            <div class="footer-col">
+
+                <img src="OIP (2).webp" class="footer-logo setec-logo" alt="SETEC">
+
+                <h3>វិទ្យាស្ថានស៊ីតិក</h3>
+
+                <p>
+                    អគារលេខ ១២៨ ផ្លូវលេខ ៣០១ សង្កាត់បឹងកេងកងទី១
+                    <br>រាជធានីភ្នំពេញ
+                </p>
+
+                <p>
+                    ទូរស័ព្ទ៖<br> 023 880612<br> 010 880612<br> 011 600619
+                </p>
+
+                <p>
+                    អ៊ីមែល៖ info@setecu.com
+                </p>
+
+            </div>
+
+            <!-- STUDENT -->
+            <div class="footer-col student-col">
+
+                <img src="icon/vin.jpg" class="qr" alt="Student">
+
+                <h3>ព័ត៌មាននិស្សិត</h3>
+
+                <p>
+                    និស្សិត : Hav Savin <br> លេខទូរស័ព្ទ : 0974788393<br> ក្រុម : SX10<br> ឆ្នាំទី១ ឆមាសទី២
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+    </footer>
+
+    <script>
+        const attractionFilters = document.querySelectorAll(".attraction-filter");
+        const attractionCards = document.querySelectorAll(".attraction-card");
+
+        attractionFilters.forEach((filter) => {
+            filter.addEventListener("click", () => {
+                const selectedCategory = filter.dataset.filter;
+
+                attractionFilters.forEach((button) => {
+                    const isActive = button === filter;
+                    button.classList.toggle("is-active", isActive);
+                    button.setAttribute("aria-pressed", String(isActive));
+                });
+
+                attractionCards.forEach((card) => {
+                    card.hidden = selectedCategory !== "all" && card.dataset.category !== selectedCategory;
+                });
+            });
+        });
+    </script>
+</body>
+
+
+</html>

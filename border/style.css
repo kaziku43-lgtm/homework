@@ -1,0 +1,43 @@
+body {
+      font-family:'Khmer OS Bokor';
+      margin: 20px;
+      background-color: #ffffff;
+    }
+    .title {
+      text-align: center;
+      font-family: 'Moul';
+      font-size: 22px;
+      margin-bottom: 25px;
+    }
+    table {
+      width: 85%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 1px 5px;
+      vertical-align: middle;
+    }
+    thead th {
+      background-color: #ffdb9a; 
+      font-weight: normal;
+    }
+    .student-img {
+      width: 55px;
+      height: 65px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+    tfoot td {
+      background-color: #fdfd9a; 
+      font-weight: bold;
+      padding: 10px;
+    }
+    .action-links {
+      color: #000;
+    }
